@@ -112,8 +112,3 @@ License
 -------
 
 GPLv3
-
-Author Information
-------------------
-
-Jon Jozwiak
