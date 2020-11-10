@@ -76,7 +76,7 @@ NOTE- vars up top override include_role vars below.  If you are setting a variab
       tasks:
         - name: Get IP Address 
           include_role: 
-            name: jonjozwiak.bluecat-ipam-rest 
+            name: prince0205.bluecat_ipam_rest 
           vars: 
             target_hostname: "ansibletest.example.com"
     
@@ -85,7 +85,7 @@ NOTE- vars up top override include_role vars below.  If you are setting a variab
     
         - name: Get IP Address
           include_role:
-            name: jonjozwiak.bluecat-ipam-rest
+            name: prince0205.bluecat_ipam_rest
           vars:
             target_hostname: "ansibletest2.example.com"
     
@@ -94,14 +94,14 @@ NOTE- vars up top override include_role vars below.  If you are setting a variab
     
         - name: Release IP Address 
           include_role:
-            name: jonjozwiak.bluecat-ipam-rest
+            name: prince0205.bluecat_ipam_rest
           vars:
             target_hostname: "ansibletest.example.com"
             state: absent
     
         - name: Release IP Address 
           include_role:
-            name: jonjozwiak.bluecat-ipam-rest
+            name: prince0205.bluecat_ipam_rest
           vars:
             target_hostname: "ansibletest2.example.com"
             state: absent
